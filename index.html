@@ -217,6 +217,14 @@
       font-size: .95rem;
     }
     .podcast-library-item span { font-size: .88rem; }
+  
+    .podcast-mini-player {
+      width: 100%;
+      margin-top: 12px;
+      height: 38px;
+      filter: sepia(.12) saturate(.9);
+    }
+
   </style>
 </head>
 <body>
@@ -453,6 +461,10 @@
                 <div class="podcast-library-item">
                   <strong>01 · Vender no siempre es ganar.</strong>
                   <span>Una mirada sobre margen, caja, facturación y rentabilidad real.</span>
+                  <audio class="podcast-mini-player" controls preload="metadata">
+                    <source src="club-influx-episodio-01.mpeg" type="audio/mpeg">
+                    Tu navegador no permite reproducir este audio.
+                  </audio>
                 </div>
               </div>
 
