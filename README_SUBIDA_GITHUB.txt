@@ -1,18 +1,19 @@
-RADAR EMPRESARIAL INFLUX · ARCHIVOS LISTOS PARA GITHUB
+RADAR INFLUX · PAQUETE FINAL GITHUB
 
-Subir/reemplazar estos archivos en la raíz del repositorio del Radar:
-
+Contenido:
 - index.html
 - radar-preview.jpg
 - radar-preview.png
 - club-influx-episodio-02.mp3
 - club-influx-episodio-01.mpeg
 
-Notas:
-1. Las imágenes de Pocito / Proaco y YPF / Vaca Muerta están embebidas dentro del index.html.
-2. La previsualización del link está conectada a radar-preview.jpg en las etiquetas Open Graph / Twitter.
-3. El HTML ya apunta a los audios con estos nombres exactos:
-   - club-influx-episodio-02.mp3
-   - club-influx-episodio-01.mpeg
-4. Si tu repositorio tiene archivo CNAME por dominio propio, no lo borres.
-5. Si GitHub pregunta si querés reemplazar index.html, confirmá el reemplazo.
+Instrucciones:
+1. Descomprimir este ZIP.
+2. Subir/reemplazar los archivos dentro de la raíz del repositorio del Radar en GitHub.
+3. Si el repositorio ya tiene CNAME, no borrarlo.
+4. Esperar unos minutos a que GitHub Pages actualice.
+
+Actualización incluida:
+- Dólar Banco Nación actualizado al 13/5/2026 · 13:31: compra $1.365 / venta $1.415.
+- Imagen de preview conectada como radar-preview.jpg.
+- Audios incluidos con los nombres que usa el HTML.
