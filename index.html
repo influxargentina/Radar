@@ -185,6 +185,38 @@
       .signal-content,.opp-card,.watch-card,.community-card,.voice-inner,.question-card,.summary-week,.podcast-card { padding:24px; } .question-card h2 { font-size:clamp(2.25rem,11vw,3.35rem); max-width:100%; } .sources-grid,.footer-panel { grid-template-columns:1fr; } .footer-info { text-align:left; } .voice-meta.closing { text-align:left; } .voice-watermark { left:24px; right:auto; bottom:2px; font-size:clamp(2rem,13vw,3.4rem); }
       .float-wa { width:48px; height:48px; } .float-wa svg { width:21px; height:21px; }
     }
+  
+    .podcast-library {
+      margin-top: 18px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(201,146,106,.14);
+      display: grid;
+      gap: 10px;
+      position: relative;
+      z-index: 2;
+    }
+    .podcast-library-label {
+      color: var(--rose);
+      text-transform: uppercase;
+      letter-spacing: .16em;
+      font-size: .72rem;
+      font-weight: 800;
+    }
+    .podcast-library-item {
+      border: 1px solid rgba(255,255,255,.055);
+      background: rgba(255,255,255,.014);
+      border-radius: 16px;
+      padding: 13px 14px;
+      color: rgba(244,238,232,.68);
+      line-height: 1.55;
+    }
+    .podcast-library-item strong {
+      display: block;
+      color: #fff6ef;
+      margin-bottom: 4px;
+      font-size: .95rem;
+    }
+    .podcast-library-item span { font-size: .88rem; }
   </style>
 </head>
 <body>
@@ -396,7 +428,7 @@
       <div class="container">
         <div class="section-head">
           <div><span class="eyebrow">Podcast INFLUX</span><h2 class="section-title">Club INFLUX: la voz para pensar negocios con más criterio.</h2></div>
-          <p class="section-copy">Ideas concretas para mirar mejor el negocio, ordenar decisiones y detectar oportunidades con mayor claridad.</p>
+          <p class="section-copy">Una reflexión para transformar información, contexto económico y señales del mercado en decisiones concretas para negocios, PyMEs, inversores y emprendedores.</p>
         </div>
         <div class="podcast-card reveal">
           <div class="podcast-grid">
@@ -404,19 +436,28 @@
               <img src="https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=1000&q=80" alt="Podcast INFLUX · Club INFLUX">
             </div>
             <div>
-              <span class="podcast-tag">Club INFLUX · Episodio 01</span>
-              <h2>Vender no siempre es ganar.</h2>
+              <span class="podcast-tag">Club INFLUX · Episodio 02</span>
+              <h2>No alcanza con mirar el contexto. Hay que saber qué hacer con él.</h2>
               <p>Una escucha breve para mirar más allá de la facturación: margen, caja, esfuerzo operativo y rentabilidad real.</p>
               <div class="podcast-meta"><span>⏱ 9:40 min</span><span>Negocios · contexto · decisiones</span></div>
             </div>
             <div class="podcast-player">
               <strong>Escuchar episodio</strong>
               <audio controls preload="metadata">
-                <source src="club-influx-episodio-01.mpeg" type="audio/mpeg">
+                <source src="club-influx-episodio-02.mp3" type="audio/mpeg">
                 Tu navegador no permite reproducir audio desde este bloque.
               </audio>
+
+              <div class="podcast-library">
+                <div class="podcast-library-label">Episodios anteriores</div>
+                <div class="podcast-library-item">
+                  <strong>01 · Vender no siempre es ganar.</strong>
+                  <span>Una mirada sobre margen, caja, facturación y rentabilidad real.</span>
+                </div>
+              </div>
+
               <div class="podcast-actions">
-                <a class="btn btn-primary" href="club-influx-episodio-01.mpeg" target="_blank" rel="noopener noreferrer">Escuchar</a>
+                <a class="btn btn-primary" href="club-influx-episodio-02.mp3" target="_blank" rel="noopener noreferrer">Escuchar</a>
                 <a class="btn btn-secondary" href="https://wa.me/5493512005225?text=Hola%2C%20quiero%20recibir%20los%20pr%C3%B3ximos%20episodios%20de%20Club%20INFLUX." target="_blank" rel="noopener noreferrer">Recibir episodios</a>
               </div>
             </div>
