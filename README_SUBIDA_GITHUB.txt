@@ -1,1 +1,1 @@
-Reemplazar solo index.html. Ajustes finales: dólar BNA 1420, riesgo país 522, fuente Endeavor, lectura INFLUX final humanizada y cierre listo para publicar.
+Reemplazar solo index.html. Versión V2 premium final con imágenes 1, 2 y 3 más realistas/editoriales. Se mantienen imágenes 4, 5 y 6, audios, preview, estructura, footer y fuentes.
