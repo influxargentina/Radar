@@ -1,1 +1,1 @@
-Reemplazar solo index.html. Versión V2 premium final con imágenes 1, 2 y 3 más realistas/editoriales. Se mantienen imágenes 4, 5 y 6, audios, preview, estructura, footer y fuentes.
+Reemplazar solo index.html. Corrección: el botón 'Sitio oficial' vuelve a mostrarse en mobile dentro del header con scroll horizontal, sin tocar audios, preview, CNAME ni estructura general.

@@ -180,7 +180,7 @@
       .mobile-section-nav a { flex:0 0 auto; padding:10px 14px; border-radius:999px; border:1px solid rgba(201,146,120,.18); background:rgba(255,255,255,.018); color:rgba(244,238,232,.72); font-size:.72rem; font-weight:800; text-transform:uppercase; letter-spacing:.12em; }
     }
     @media (max-width:680px) {
-      .container { width:min(var(--max), calc(100% - 26px)); } .brand-sub { display:none; } .site-link { display:none; } .issue-pill { font-size:.66rem; padding:0 12px; }
+      .container { width:min(var(--max), calc(100% - 26px)); } .brand-sub { display:none; } .site-link { display:inline-flex; } .issue-pill { font-size:.66rem; padding:0 12px; }
       section { padding:68px 0; } .hero { padding:20px 0 54px; } .hero-card { border-radius:28px; } .hero-card::before { background:linear-gradient(90deg, rgba(2,2,2,.98) 0%, rgba(2,2,2,.92) 52%, rgba(2,2,2,.70) 100%), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat; }
       .hero-inner { padding:26px 22px 20px; gap:20px; } .hero-chip { font-size:.64rem; padding:9px 11px; letter-spacing:.12em; } .hero-brandmark { font-size:clamp(3.75rem,17vw,5.35rem); letter-spacing:.06em; } .hero-kicker-alt { font-size:.64rem; letter-spacing:.18em; } .hero-kicker-alt::before,.hero-kicker-alt::after { width:24px; }
       .hero h1 { font-size:clamp(2.75rem,14vw,4.3rem); line-height:.96; max-width:11.4ch; margin-top:22px; } .hero p,.hero-context p { font-size:.96rem; line-height:1.7; } .hero-actions { align-items:stretch; } .btn { width:100%; min-height:50px; padding:0 18px; } .hero-context { padding:18px; }
@@ -378,7 +378,49 @@
     .signal-card:nth-child(1) .signal-media img { object-position: center center; }
     .signal-card:nth-child(2) .signal-media img { object-position: center center; }
     .signal-card:nth-child(3) .signal-media img { object-position: center center; }
-    </style>
+    
+    /* Mobile official site button fix · INFLUX */
+    @media (max-width: 620px) {
+      .nav {
+        gap: 10px !important;
+      }
+
+      .nav-center {
+        order: 3 !important;
+        width: 100% !important;
+        display: flex !important;
+        align-items: center !important;
+        gap: 10px !important;
+        overflow-x: auto !important;
+        padding: 4px 0 2px !important;
+      }
+
+      .site-link {
+        display: inline-flex !important;
+        flex: 0 0 auto !important;
+        min-height: 36px !important;
+        padding: 0 13px !important;
+        font-size: .64rem !important;
+        letter-spacing: .105em !important;
+        border-color: rgba(201,146,120,.28) !important;
+        background: linear-gradient(135deg, rgba(201,146,120,.12), rgba(255,255,255,.025)) !important;
+        color: rgba(244,238,232,.88) !important;
+      }
+
+      .nav-links {
+        display: flex !important;
+        flex: 0 0 auto !important;
+        gap: 12px !important;
+      }
+
+      .nav-links a {
+        flex: 0 0 auto !important;
+        font-size: .68rem !important;
+        letter-spacing: .08em !important;
+      }
+    }
+
+  </style>
 </head>
 <body>
 <header class="site-header">
